@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/TecDevTarde/AndroidStudioProjects/ToDoList/app/src/main/res/drawable/borda.xml" value="0.2890625" />
         <entry key="..\:/Users/TecDevTarde/AndroidStudioProjects/ToDoList/app/src/main/res/layout/activity_main.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/TecDevTarde/AndroidStudioProjects/ToDoList/app/src/main/res/layout/adapter_tarefa.xml" value="0.33" />
+        <entry key="..\:/Users/TecDevTarde/AndroidStudioProjects/ToDoList/app/src/main/res/layout/borda.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/TecDevTarde/AndroidStudioProjects/ToDoList/app/src/main/res/layout/fragment_cadastro_sub_tarefa.xml" value="0.28940217391304346" />
         <entry key="..\:/Users/TecDevTarde/AndroidStudioProjects/ToDoList/app/src/main/res/layout/fragment_cadastro_tarefa.xml" value="0.12" />
         <entry key="..\:/Users/TecDevTarde/AndroidStudioProjects/ToDoList/app/src/main/res/layout/fragment_detalhe_tarefa.xml" value="0.28940217391304346" />
