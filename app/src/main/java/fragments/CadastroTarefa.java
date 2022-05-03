@@ -137,6 +137,10 @@ public class CadastroTarefa extends Fragment {
         protected void onPostExecute(String resultado) {
             if(resultado.equals("ok")){
                 Log.w("RESULTADO", "FOIIII");
+                //voltar para a tela anterior
+                getActivity().onBackPressed();
+
+
             }else {
                 Log.w("RESULTADO", resultado);
                 Toast.makeText(getContext(), "DEU MERDA"+resultado, Toast.LENGTH_SHORT).show();
@@ -145,6 +149,9 @@ public class CadastroTarefa extends Fragment {
 
         }
     }
+
+    //Listar Atarefa
+
 
 }
 
