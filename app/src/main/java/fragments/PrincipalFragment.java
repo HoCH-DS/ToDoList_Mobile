@@ -13,10 +13,22 @@ import com.example.br.senai.todolist.R;
 import com.example.br.senai.todolist.databinding.FragmentCadastroTarefaBinding;
 import com.example.br.senai.todolist.databinding.FragmentPrincipalBinding;
 
+import java.util.List;
+
+import database.AppDataBase;
+import model.Tarefa;
+
 
 public class PrincipalFragment extends Fragment {
 
+    //variavel para binding
     private FragmentPrincipalBinding binding;
+
+    //variavel para Data
+    private AppDataBase dataBase;
+
+    //variavel para Lista
+    private List<Tarefa> tarefas;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
